@@ -1,1 +1,3 @@
-export { TodoInfo } from './TodoInfo';
+import TodoInfo from './TodoInfo';
+
+export default TodoInfo;
