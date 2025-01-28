@@ -1,5 +1,5 @@
 // Add the required props
-const TodoInfo = ({ todo }) => {
+export const TodoInfo = ({ todo }) => {
   const todoClass = todo.completed
     ? 'TodoInfo TodoInfo--completed'
     : 'TodoInfo';
@@ -15,5 +15,3 @@ const TodoInfo = ({ todo }) => {
     </article>
   );
 };
-
-export default TodoInfo;
